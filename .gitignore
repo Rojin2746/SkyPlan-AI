@@ -5,3 +5,19 @@ __pycache__/**/*
 venv/
 node_modules/
 dist/
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database
+backend/skyplan.db
+
+# Backup copies
+backend/*_backup.py
+src/*_backup.tsx
+
+# Local environments and build output
+.venv/
+venv/
+node_modules/
+dist/
